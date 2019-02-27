@@ -25,9 +25,4 @@ public class IntegerArrayUtilities {
     public Integer getProductOfFirstTwo(Integer[] array) {
         return array[0] * array[1];
     }
-
-//    public static void main(String[] args) {
-//        IntegerArrayUtilities asdf = new IntegerArrayUtilities();
-//        asdf.range(-5, 10);
-//    }
 }
