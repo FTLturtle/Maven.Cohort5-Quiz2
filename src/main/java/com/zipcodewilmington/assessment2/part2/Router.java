@@ -1,7 +1,16 @@
 package com.zipcodewilmington.assessment2.part2;
 
+import java.util.TreeMap;
+
 public class Router {
+    TreeMap<String, String> treeMap;
+
+    public Router() {
+        treeMap = new TreeMap<>();
+    }
+
     public void add(String path, String controller) {
+
     }
 
     public Integer size() {
